@@ -1,13 +1,79 @@
-html, body {
-    margin: 0;
-    padding: 0;
+/* Reset and normalize styles */
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 55%;
+  height: 40%;
+  margin-right: 8%;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: 100;
+  color: rgb(105, 118, 118);
+}
+
+.feed {
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.post {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.post-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .icon-button {
   background: none;
   border: none;
   cursor: pointer;
+  margin-right: 10px;
   padding: 0;
+}
+
+.icon-button:hover .icon,
+.icon-button:focus .icon {
+  background-color: rgba(220, 30, 30, 0.822);
 }
 
 .icon {
@@ -15,15 +81,63 @@ html, body {
   height: 20px;
 }
 
+.post-details {
+  margin-top: 10px;
+}
+.name {
+  font-size: 25px;
+}
 
-header{
-display: inline-flex;
-height: 67px;
-padding: 16px 16px 17px 15px;
-justify-content: center;
-align-items: flex-start;
-gap: 183px;
-flex-shrink: 0;
-border-bottom: 1px solid #C6C6C6;
-background: #FFF;
+/* index.css */
+
+/* Style for the comment section */
+.comment-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.comment-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.comment-button {
+  background-color: #151617;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.comment-button:hover {
+  background-color: #626364;
+}
+
+/* Style for comments */
+.comments {
+  margin-top: 10px;
+}
+
+.comment {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Additional styling for the feed */
+/* ... your existing styles ... */
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 18px;
+  }
+
+  .feed {
+    max-width: 90%;
+  }
 }
