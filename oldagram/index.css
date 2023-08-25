@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+
+header{
+display: inline-flex;
+height: 67px;
+padding: 16px 16px 17px 15px;
+justify-content: center;
+align-items: flex-start;
+gap: 183px;
+flex-shrink: 0;
+border-bottom: 1px solid #C6C6C6;
+background: #FFF;
+}
