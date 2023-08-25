@@ -12,7 +12,7 @@ Alternatively, you can directly access the app at: [https://musicgramhub.netlify
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/musicgram-app.git`
+1. Clone the repository: `git clone https://github.com/MaharjanFinjo/Musician-MusicGram.git`
 2. Navigate to the project directory: `cd musicgram-app`
 3. Open `index.html` in your web browser to start using the app.
 
@@ -39,4 +39,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or inquiries, please contact us at contact@musicgram.com.
+For questions or inquiries, please contact us at contact@mahamoto.jp@gmail.com
