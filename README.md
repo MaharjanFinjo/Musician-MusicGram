@@ -1,4 +1,4 @@
-# MusicGram App
+# Music social media App-sample
 
 Welcome to MusicGram, a social media platform for music lovers to share their favorite tunes, connect with fellow music enthusiasts, and explore new melodies.
 
