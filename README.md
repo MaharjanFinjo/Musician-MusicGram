@@ -1,4 +1,4 @@
-# MusicGram App--
+# MusicGram App---
 
 Welcome to MusicGram, a social media platform for music lovers to share their favorite tunes, connect with fellow music enthusiasts, and explore new melodies.
 
